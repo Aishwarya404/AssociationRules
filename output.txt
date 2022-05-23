@@ -1,0 +1,148 @@
+64 Candidate Sets With High Support (min_supp = 8.0%)
+
+['M'], 82.8824 % 
+ ['25-44'], 57.1191 % 
+ ['BLACK'], 49.7923 % 
+ ['25-44', 'M'], 47.1150 % 
+ ['BLACK', 'M'], 41.1350 % 
+ ['25-44', 'BLACK'], 27.4886 % 
+ ['Brooklyn'], 26.7393 % 
+ ['Manhattan'], 25.4927 % 
+ ['WHITE HISPANIC'], 24.6026 % 
+ ['25-44', 'BLACK', 'M'], 22.5976 % 
+ ['Brooklyn', 'M'], 22.2973 % 
+ ['Bronx'], 21.8781 % 
+ ['Queens'], 21.2548 % 
+ ['M', 'Manhattan'], 21.1999 % 
+ ['M', 'WHITE HISPANIC'], 20.4060 % 
+ ['45-64'], 19.7026 % 
+ ['18-24'], 18.6155 % 
+ ['Bronx', 'M'], 17.9341 % 
+ ['M', 'Queens'], 17.6434 % 
+ ['ASSAULT 3 & RELATED OFFENSES'], 17.2920 % 
+ ['F'], 17.1176 % 
+ ['45-64', 'M'], 16.7191 % 
+ ['BLACK', 'Brooklyn'], 15.9098 % 
+ ['18-24', 'M'], 15.2406 % 
+ ['25-44', 'Brooklyn'], 15.2296 % 
+ ['25-44', 'WHITE HISPANIC'], 14.7148 % 
+ ['25-44', 'Manhattan'], 14.4907 % 
+ ['BLACK', 'Brooklyn', 'M'], 13.1601 % 
+ ['BLACK', 'Manhattan'], 12.9301 % 
+ ['ASSAULT 3 & RELATED OFFENSES', 'M'], 12.8507 % 
+ ['25-44', 'Brooklyn', 'M'], 12.7279 % 
+ ['25-44', 'Bronx'], 12.5296 % 
+ ['25-44', 'Queens'], 12.2093 % 
+ ['25-44', 'M', 'WHITE HISPANIC'], 12.1653 % 
+ ['25-44', 'M', 'Manhattan'], 11.8947 % 
+ ['WHITE'], 11.0169 % 
+ ['BLACK', 'M', 'Manhattan'], 10.7759 % 
+ ['BLACK', 'Bronx'], 10.6041 % 
+ ['25-44', 'Bronx', 'M'], 10.2082 % 
+ ['25-44', 'ASSAULT 3 & RELATED OFFENSES'], 10.1313 % 
+ ['25-44', 'M', 'Queens'], 10.1139 % 
+ ['FELONY ASSAULT'], 10.0299 % 
+ ['25-44', 'F'], 10.0041 % 
+ ['18-24', 'BLACK'], 9.9530 % 
+ ['45-64', 'BLACK'], 9.7941 % 
+ ['Oct'], 9.2936 % 
+ ['Mar'], 8.9938 % 
+ ['M', 'WHITE'], 8.9519 % 
+ ['Sep'], 8.8414 % 
+ ['Aug'], 8.8382 % 
+ ['BLACK HISPANIC'], 8.7581 % 
+ ['Jul'], 8.7187 % 
+ ['25-44', 'BLACK', 'Brooklyn'], 8.7142 % 
+ ['Jan'], 8.6974 % 
+ ['BLACK', 'Bronx', 'M'], 8.6838 % 
+ ['BLACK', 'F'], 8.6573 % 
+ ['PETIT LARCENY'], 8.4855 % 
+ ['Nov'], 8.3964 % 
+ ['BLACK', 'Queens'], 8.3809 % 
+ ['45-64', 'BLACK', 'M'], 8.2678 % 
+ ['Jun'], 8.2652 % 
+ ['ASSAULT 3 & RELATED OFFENSES', 'BLACK'], 8.2452 % 
+ ['Dec'], 8.1548 % 
+ ['18-24', 'BLACK', 'M'], 8.1154 % 
+ 
+79 Association Rules With High Confidence (min_conf = 20.0%)
+
+['45-64'] => ['M']  (Conf: 84.8572 %,  Supp: 16.7191 %) 
+['45-64', 'BLACK'] => ['M']  (Conf: 84.4160 %,  Supp: 8.2678 %) 
+['25-44', 'Brooklyn'] => ['M']  (Conf: 83.5737 %,  Supp: 12.7279 %) 
+['Brooklyn'] => ['M']  (Conf: 83.3877 %,  Supp: 22.2973 %) 
+['BLACK', 'Manhattan'] => ['M']  (Conf: 83.3400 %,  Supp: 10.7759 %) 
+['Manhattan'] => ['M']  (Conf: 83.1606 %,  Supp: 21.1999 %) 
+['Queens'] => ['M']  (Conf: 83.0092 %,  Supp: 17.6434 %) 
+['WHITE HISPANIC'] => ['M']  (Conf: 82.9426 %,  Supp: 20.4060 %) 
+['25-44', 'Queens'] => ['M']  (Conf: 82.8378 %,  Supp: 10.1139 %) 
+['BLACK', 'Brooklyn'] => ['M']  (Conf: 82.7169 %,  Supp: 13.1601 %) 
+['25-44', 'WHITE HISPANIC'] => ['M']  (Conf: 82.6742 %,  Supp: 12.1653 %) 
+['BLACK'] => ['M']  (Conf: 82.6132 %,  Supp: 41.1350 %) 
+['25-44'] => ['M']  (Conf: 82.4856 %,  Supp: 47.1150 %) 
+['25-44', 'BLACK'] => ['M']  (Conf: 82.2074 %,  Supp: 22.5976 %) 
+['25-44', 'Manhattan'] => ['M']  (Conf: 82.0852 %,  Supp: 11.8947 %) 
+['Bronx'] => ['M']  (Conf: 81.9728 %,  Supp: 17.9341 %) 
+['BLACK', 'Bronx'] => ['M']  (Conf: 81.8907 %,  Supp: 8.6838 %) 
+['18-24'] => ['M']  (Conf: 81.8702 %,  Supp: 15.2406 %) 
+['18-24', 'BLACK'] => ['M']  (Conf: 81.5368 %,  Supp: 8.1154 %) 
+['25-44', 'Bronx'] => ['M']  (Conf: 81.4723 %,  Supp: 10.2082 %) 
+['WHITE'] => ['M']  (Conf: 81.2559 %,  Supp: 8.9519 %) 
+['ASSAULT 3 & RELATED OFFENSES'] => ['M']  (Conf: 74.3155 %,  Supp: 12.8507 %) 
+['WHITE HISPANIC'] => ['25-44']  (Conf: 59.8099 %,  Supp: 14.7148 %) 
+['M', 'WHITE HISPANIC'] => ['25-44']  (Conf: 59.6164 %,  Supp: 12.1653 %) 
+['Brooklyn'] => ['BLACK']  (Conf: 59.4995 %,  Supp: 15.9098 %) 
+['Brooklyn', 'M'] => ['BLACK']  (Conf: 59.0209 %,  Supp: 13.1601 %) 
+['ASSAULT 3 & RELATED OFFENSES'] => ['25-44']  (Conf: 58.5895 %,  Supp: 10.1313 %) 
+['F'] => ['25-44']  (Conf: 58.4431 %,  Supp: 10.0041 %) 
+['Queens'] => ['25-44']  (Conf: 57.4424 %,  Supp: 12.2093 %) 
+['M', 'Queens'] => ['25-44']  (Conf: 57.3238 %,  Supp: 10.1139 %) 
+['Bronx'] => ['25-44']  (Conf: 57.2702 %,  Supp: 12.5296 %) 
+['25-44', 'Brooklyn'] => ['BLACK']  (Conf: 57.2186 %,  Supp: 8.7142 %) 
+['Brooklyn', 'M'] => ['25-44']  (Conf: 57.0829 %,  Supp: 12.7279 %) 
+['Brooklyn'] => ['25-44']  (Conf: 56.9558 %,  Supp: 15.2296 %) 
+['Bronx', 'M'] => ['25-44']  (Conf: 56.9206 %,  Supp: 10.2082 %) 
+['M'] => ['25-44']  (Conf: 56.8456 %,  Supp: 47.1150 %) 
+['Manhattan'] => ['25-44']  (Conf: 56.8424 %,  Supp: 14.4907 %) 
+['M', 'Manhattan'] => ['25-44']  (Conf: 56.1074 %,  Supp: 11.8947 %) 
+['BLACK'] => ['25-44']  (Conf: 55.2065 %,  Supp: 27.4886 %) 
+['BLACK', 'M'] => ['25-44']  (Conf: 54.9353 %,  Supp: 22.5976 %) 
+['BLACK', 'Brooklyn'] => ['25-44']  (Conf: 54.7724 %,  Supp: 8.7142 %) 
+['18-24'] => ['BLACK']  (Conf: 53.4663 %,  Supp: 9.9530 %) 
+['18-24', 'M'] => ['BLACK']  (Conf: 53.2486 %,  Supp: 8.1154 %) 
+['M', 'Manhattan'] => ['BLACK']  (Conf: 50.8303 %,  Supp: 10.7759 %) 
+['Manhattan'] => ['BLACK']  (Conf: 50.7209 %,  Supp: 12.9301 %) 
+['F'] => ['BLACK']  (Conf: 50.5754 %,  Supp: 8.6573 %) 
+['45-64'] => ['BLACK']  (Conf: 49.7099 %,  Supp: 9.7941 %) 
+['M'] => ['BLACK']  (Conf: 49.6306 %,  Supp: 41.1350 %) 
+['45-64', 'M'] => ['BLACK']  (Conf: 49.4514 %,  Supp: 8.2678 %) 
+['Bronx'] => ['BLACK']  (Conf: 48.4692 %,  Supp: 10.6041 %) 
+['Bronx', 'M'] => ['BLACK']  (Conf: 48.4207 %,  Supp: 8.6838 %) 
+['25-44'] => ['BLACK']  (Conf: 48.1251 %,  Supp: 27.4886 %) 
+['25-44', 'M'] => ['BLACK']  (Conf: 47.9628 %,  Supp: 22.5976 %) 
+['ASSAULT 3 & RELATED OFFENSES'] => ['BLACK']  (Conf: 47.6822 %,  Supp: 8.2452 %) 
+['Queens'] => ['BLACK']  (Conf: 39.4305 %,  Supp: 8.3809 %) 
+['BLACK', 'M'] => ['Brooklyn']  (Conf: 31.9923 %,  Supp: 13.1601 %) 
+['BLACK'] => ['Brooklyn']  (Conf: 31.9522 %,  Supp: 15.9098 %) 
+['25-44', 'BLACK'] => ['Brooklyn']  (Conf: 31.7010 %,  Supp: 8.7142 %) 
+['25-44', 'M'] => ['Brooklyn']  (Conf: 27.0146 %,  Supp: 12.7279 %) 
+['M'] => ['Brooklyn']  (Conf: 26.9023 %,  Supp: 22.2973 %) 
+['25-44'] => ['Brooklyn']  (Conf: 26.6629 %,  Supp: 15.2296 %) 
+['BLACK', 'M'] => ['Manhattan']  (Conf: 26.1965 %,  Supp: 10.7759 %) 
+['BLACK'] => ['Manhattan']  (Conf: 25.9681 %,  Supp: 12.9301 %) 
+['25-44', 'M'] => ['WHITE HISPANIC']  (Conf: 25.8205 %,  Supp: 12.1653 %) 
+['25-44'] => ['WHITE HISPANIC']  (Conf: 25.7616 %,  Supp: 14.7148 %) 
+['M'] => ['Manhattan']  (Conf: 25.5783 %,  Supp: 21.1999 %) 
+['25-44'] => ['Manhattan']  (Conf: 25.3692 %,  Supp: 14.4907 %) 
+['25-44', 'M'] => ['Manhattan']  (Conf: 25.2461 %,  Supp: 11.8947 %) 
+['M'] => ['WHITE HISPANIC']  (Conf: 24.6205 %,  Supp: 20.4060 %) 
+['25-44'] => ['Bronx']  (Conf: 21.9360 %,  Supp: 12.5296 %) 
+['25-44', 'M'] => ['Bronx']  (Conf: 21.6665 %,  Supp: 10.2082 %) 
+['M'] => ['Bronx']  (Conf: 21.6380 %,  Supp: 17.9341 %) 
+['25-44', 'M'] => ['Queens']  (Conf: 21.4664 %,  Supp: 10.1139 %) 
+['25-44'] => ['Queens']  (Conf: 21.3751 %,  Supp: 12.2093 %) 
+['BLACK'] => ['Bronx']  (Conf: 21.2967 %,  Supp: 10.6041 %) 
+['M'] => ['Queens']  (Conf: 21.2873 %,  Supp: 17.6434 %) 
+['BLACK', 'M'] => ['Bronx']  (Conf: 21.1105 %,  Supp: 8.6838 %) 
+['M'] => ['45-64']  (Conf: 20.1721 %,  Supp: 16.7191 %) 
+['BLACK', 'M'] => ['45-64']  (Conf: 20.0992 %,  Supp: 8.2678 %) 
